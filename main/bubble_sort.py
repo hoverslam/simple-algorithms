@@ -1,5 +1,5 @@
 def bubble_sort(unsorted_list):
-    my_list = unsorted_list[:]   
+    my_list = unsorted_list.copy()   
     while True:
         swapped = False
         for i in range(1, len(my_list)):
