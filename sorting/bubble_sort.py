@@ -9,8 +9,9 @@ def bubble_sort(unsorted_list):
                 
         if not swapped:
             return my_list
-    
-unsorted_list = [5, 3, 9, 2, 5, 1, 4, 2, 8]   
-sorted_list = bubble_sort(unsorted_list)
-print(unsorted_list)
-print(sorted_list)
+
+if __name__ == "__main__":    
+    unsorted_list = [5, 3, 9, 2, 5, 1, 4, 2, 8]   
+    sorted_list = bubble_sort(unsorted_list)
+    print(unsorted_list)
+    print(sorted_list)
