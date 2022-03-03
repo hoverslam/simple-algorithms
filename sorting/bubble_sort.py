@@ -1,3 +1,5 @@
+import random
+
 def bubble_sort(unsorted_list):
     my_list = unsorted_list.copy()   
     while True:
@@ -10,8 +12,8 @@ def bubble_sort(unsorted_list):
         if not swapped:
             return my_list
 
-if __name__ == "__main__":    
-    unsorted_list = [5, 3, 9, 2, 5, 1, 4, 2, 8]   
+if __name__ == "__main__":
+    unsorted_list = [random.randint(0, 20) for i in range(10)]  
     sorted_list = bubble_sort(unsorted_list)
     print(unsorted_list)
     print(sorted_list)
