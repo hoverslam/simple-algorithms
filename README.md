@@ -6,6 +6,7 @@ A collection of various algorithms implemented in Python.
 * Fibonacci sequence
 
 ## Searching
+* Binary search
 * Linear search
 
 ## Sorting
