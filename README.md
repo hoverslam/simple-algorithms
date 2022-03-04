@@ -2,6 +2,7 @@
 A collection of various algorithms implemented in Python.
 
 ## Mathematics
+* Binomial coefficient
 * Fibonacci sequence
 
 ## Sorting
