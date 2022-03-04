@@ -10,6 +10,7 @@ def linear_search(seq, target):
     for i in range(len(seq)):
         if seq[i] == target:
             index = i
+            break
             
     return index    # -1 when element not found
 
