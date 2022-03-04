@@ -5,6 +5,9 @@ A collection of various algorithms implemented in Python.
 * Binomial coefficient
 * Fibonacci sequence
 
+## Searching
+* Linear search
+
 ## Sorting
 * Bubble sort
 
