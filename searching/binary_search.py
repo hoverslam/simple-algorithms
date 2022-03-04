@@ -10,13 +10,13 @@ def linear_search(seq, target):
     high = len(seq) - 1
     
     while low <= high:
-        i = math.floor((low + high) / 2)
-        if seq[i] < target:
-            low = i + 1
-        elif seq[i] > target:
-            high = i - 1
+        mid = math.floor(low + (high - low) / 2)
+        if seq[mid] < target:
+            low = mid + 1
+        elif seq[mid] > target:
+            high = mid - 1
         else:
-            return i            
+            return mid            
         
     return -1    # -1 when element not found
 
