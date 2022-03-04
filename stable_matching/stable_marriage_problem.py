@@ -1,5 +1,6 @@
 # ----------
 # The Gale–Shapley algorithm finds a stable matching between two equally sized sets of elements given an ordering of preferences for each element.
+# https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm
 # ----------
 
 class Proposor:

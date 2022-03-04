@@ -1,5 +1,6 @@
 # ----------
-# Bubble sort compares adjacent elements and swaps them if they are in the wrong order. 
+# Bubble sort compares adjacent elements and swaps them if they are in the wrong order.
+# https://en.wikipedia.org/wiki/Bubble_sort
 # ----------
 
 import random
