@@ -1,6 +1,5 @@
 # ----------
 # Bubble sort compares adjacent elements and swaps them if they are in the wrong order. 
-# Performance: O(n^2)
 # ----------
 
 import random
@@ -16,6 +15,7 @@ def bubble_sort(unsorted_list):
                 
         if not swapped:
             return my_list
+
 
 if __name__ == "__main__":
     unsorted_list = [random.randint(0, 20) for i in range(10)]  
