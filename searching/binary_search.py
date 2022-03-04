@@ -22,7 +22,7 @@ def linear_search(seq, target):
 
 
 if __name__ == "__main__":
-    my_list = [random.randint(0, 40) for i in range(20)]
+    my_list = sorted([random.randint(0, 40) for i in range(20)])
     target = 10
     index = linear_search(my_list, target)
     if index != -1:
